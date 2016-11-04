@@ -80,7 +80,6 @@
 				DE33ED631DCC217100856D80 /* Selfigram */,
 				DE33ED781DCC217100856D80 /* SelfigramTests */,
 				DE33ED831DCC217100856D80 /* SelfigramUITests */,
-				DE33ED621DCC217100856D80 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,11 +91,13 @@
 				DE33ED801DCC217100856D80 /* SelfigramUITests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		DE33ED631DCC217100856D80 /* Selfigram */ = {
 			isa = PBXGroup;
 			children = (
+				DE33ED621DCC217100856D80 /* Products */,
 				DE33ED641DCC217100856D80 /* AppDelegate.swift */,
 				DE33ED661DCC217100856D80 /* ViewController.swift */,
 				DE33ED681DCC217100856D80 /* Main.storyboard */,
@@ -503,6 +504,7 @@
 				DE33ED8B1DCC217100856D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE33ED8C1DCC217100856D80 /* Build configuration list for PBXNativeTarget "SelfigramTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +513,7 @@
 				DE33ED8E1DCC217100856D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DE33ED8F1DCC217100856D80 /* Build configuration list for PBXNativeTarget "SelfigramUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +522,7 @@
 				DE33ED911DCC217100856D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
